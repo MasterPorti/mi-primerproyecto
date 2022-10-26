@@ -1,0 +1,73 @@
+let betun = 0;
+let frutas = 0;
+let figuras = 0;
+let dibujo = 0;
+document.getElementById('amountdibujo').innerHTML = dibujo;
+document.getElementById('amountbetun').innerHTML = betun;
+document.getElementById('amountfrutas').innerHTML = frutas;
+document.getElementById('amountfiguras').innerHTML = figuras;
+
+betunPlus =() =>{
+    betun ++;
+    document.getElementById('amountbetun').innerHTML = betun;
+}
+
+betunMinus =() =>{
+    if (betun != 0){
+        betun --;
+        document.getElementById('amountbetun').innerHTML = betun;
+    } else{
+        document.getElementById('amountbetun').innerHTML = 0;  
+    }
+}
+
+
+
+frutasPlus =() =>{
+    frutas ++;
+    document.getElementById('amountfrutas').innerHTML = frutas;
+}
+
+frutasMinus =() =>{
+    if (frutas != 0){
+        frutas --;
+        document.getElementById('amountfrutas').innerHTML = frutas;
+    } else{
+        document.getElementById('amountfrutas').innerHTML = 0;  
+    }
+}
+
+
+
+
+figurasPlus =() =>{
+    figuras ++;
+    document.getElementById('amountfiguras').innerHTML = figuras;
+}
+
+figurasMinus =() =>{
+    if (figuras != 0){
+        figuras --;
+        document.getElementById('amountfiguras').innerHTML = figuras;
+    } else{
+        document.getElementById('amountfiguras').innerHTML = 0;  
+    }
+}
+
+
+
+
+dibujoPlus =() =>{
+    dibujo ++;
+    document.getElementById('amountdibujo').innerHTML = dibujo;
+}
+
+dibujoMinus =() =>{
+    if (dibujo != 0){
+        dibujo --;
+        document.getElementById('amountdibujo').innerHTML = dibujo;
+    } else{
+        document.getElementById('amountdibujo').innerHTML = 0;  
+    }
+}
+

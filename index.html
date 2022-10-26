@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/index.js"></script>
+    <title>Fina</title>
+  </head>
+  <body>
+    <nav class="navConteiner">
+      <div class="logo">Fina</div>
+      <!-- Texto de logo Pasteleria 🍰 -->
+      <div class="conteinersItems">
+        <!-- Texto de contenedor de items de menu 🍰 -->
+        <div class="item">Sabores</div>
+        <div class="item">Adornos</div>
+        <div class="item">Formulario</div>
+      </div>
+    </nav>
+
+    <article>
+      <span class="logo">Fina</span>
+      <img src="./img/1000px.gif" />
+    </article>
+    <div class="conteinerArrowDown">
+      <img class="arrowDown" src="./img/arrowDown.png" />
+    </div>
+
+    <main>
+      <div class="title">Crea tu Pastel</div>
+      <menu>
+        <div>
+          <div class="subTitle">Sobores de bizcocho:</div>
+          <div>
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="chocolate();">
+                <span class="color chocolate"></span>
+                <div>Chocolate</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="chocolatePlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountChocolate">4</div>
+                <div class="boton" onclick="chocolateMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="fresa();">
+                <span class="color fresa"></span>
+                <div>Fresa</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="fresaPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountfresa">4</div>
+                <div class="boton" onclick="fresaMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="limon();">
+                <span class="color limon"></span>
+                <div>Limon</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="limonPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountlimon">4</div>
+                <div class="boton" onclick="limonMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="vainilla();">
+                <span class="color vainilla"></span>
+                <div>Vainilla</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="vainillaPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountvainilla">4</div>
+                <div class="boton" onclick="vainillaMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="subTitle">Tipo de decoracion:</div>
+          <div>
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="betun();">
+                <span class="color betun"></span>
+                <div>Betun</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="betunPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountbetun">4</div>
+                <div class="boton" onclick="betunMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="frutas();">
+                <span class="color frutas"></span>
+                <div>Frutas</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="frutasPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountfrutas">4</div>
+                <div class="boton" onclick="frutasMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="figuras();">
+                <span class="color figuras"></span>
+                <div>Figuras</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="figurasPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountfiguras">4</div>
+                <div class="boton" onclick="figurasMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteinerSelection">
+              <div class="containerSabores" onclick="dibujo();">
+                <span class="color dibujo"></span>
+                <div>Dibujo</div>
+                <div class="precio">$123</div>
+              </div>
+              <div class="conteinerBotons">
+                <!-- Aqui va boton -->
+                <div class="boton" onclick="dibujoPlus();">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="amount" id="amountdibujo">4</div>
+                <div class="boton" onclick="dibujoMinus();">
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </menu>
+      <div class="title">Ubicacion</div>
+      <div class="conteinerArrowDown">
+        <div class="form">
+          <div class="input-group">
+            <div class="firtsLine">
+              <input autocomplete="off" name="Email" id="Email" class="input apellidos" type="email" placeholder="Nombre y apellido"/>
+              <input autocomplete="off" name="Email" id="Email" class="input postal" type="email" placeholder="Codigo Postal"/>
+            </div>
+            <div class="secondLine">
+              <input autocomplete="off" name="Email" id="Email" class="input second" type="email" placeholder="Estado"/>
+              <input autocomplete="off" name="Email" id="Email" class="input second" type="email" placeholder="Municipio/Alcaldia" />
+              <input autocomplete="off" name="Email" id="Email" class="input second" type="email" placeholder="Colonia"/>
+            </div>
+            <div class="thirdline">
+              <input autocomplete="off" name="Email" id="Email" class="input calle" type="email" placeholder="Calle"/>
+              <input autocomplete="off" name="Email" id="Email" class="input numeros" type="email" placeholder="Numero exterior"/>
+              <input autocomplete="off" name="Email" id="Email" class="input" type="email" placeholder="No Interior/Depto"/>
+            </div>
+            <div class="secondLine botom">
+              <input autocomplete="off" name="Email" id="Email" class="input second" type="email" placeholder="Calle 1"/>
+              <input autocomplete="off" name="Email" id="Email" class="input second" type="email" placeholder="Calle 2"/>
+              <input autocomplete="off" name="Email" id="Email" class="input second" type="email" placeholder="Telefono de contacto"/>
+            </div>   
+          </div>
+        </div>
+      </div>
+
+      <div class="conteinerArrowDown">
+        <div class="conteinerSelection">
+          <div class="containersubmit">
+            <span class="color guardar"></span>
+            <div class="submitText">Guardar</div>
+          </div>
+        </div>        
+      </div>
+
+
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/40a52d51cb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

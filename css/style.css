@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fasthand&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(255, 200, 221);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,180,219,1) 63%);
+}
+
+/* Inicio del menu 🟢*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteinersItems{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    font-size: 2.5vw;
+    align-items: center;
+    margin: 1vw;
+}
+.logo{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 3.5vw;
+    margin-left: 1vw;
+}
+
+
+/* Fin del menu 🔴*/
+
+
+/* Inicio del article 🟢*/
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article img{
+    width: 30vw;
+}
+
+article .logo{
+    font-size: 20vw;
+}
+
+.conteinerArrowDown{
+    display: flex;
+    justify-content: center; 
+}
+
+.arrowDown{
+    width: 9vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Fin del article🔴*/
+/* Inicio del menu🟢*/
+menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.title{
+    margin: 1vw;
+    font-size: 3vw;
+}
+
+.subTitle{
+    margin: 1vw;
+    font-size: 2.5vw;
+}
+
+.containerSabores{
+    align-items: center;
+    font-size: 2vw;
+    margin: 1.5vw 1.5vw 0 1.5vw;
+    display: flex;
+    width: 30vw;
+    height: 3vw;
+    background-color: azure;
+    border-radius: .5vw;
+}
+
+.containerSabores div{
+
+    margin-left: 1vw;
+
+}
+
+.color{
+    width: 10vw;
+    height: 3vw;
+
+}
+
+.chocolate{
+    background-color: #87796d;
+}
+
+.fresa{
+    background-color: #ffcdd4;    
+}
+
+.vainilla{
+    background-color: #ffdd95;
+}
+
+.limon{
+    background-color: #22ba8e;
+}
+
+.betun{
+    background-color: #e9bb86; 
+}
+
+.frutas{
+    background-color: #dcd9f7;
+}
+
+.figuras{
+    background-color: #a1edcd;
+}
+
+.dibujo{
+    background-color: #c5cf85;
+}
+.precio{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.conteinerSelection{
+    display: flex;
+    align-items: center;
+}
+
+.conteinerBotons{
+    margin: 1.5vw 1.5vw 0 1.5vw;
+    display: flex;
+    align-items: center;
+}
+
+   /* Boton */
+
+.amount {
+    margin: 0 1vw 0 1vw;
+    font-size: 2vw ;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    background-color: #dcd9f7;
+    border-radius: 3vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+
+}
+
+.boton :hover{
+    transition: background-color 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border-radius: 3vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+
+  /* Fin del boton */
+  
+
+/* Fin del menu🔴*/
+/* Inicio del formulario🟢*/
+
+
+
+.form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80vw;
+    background-color: #dcd9f7;
+    border-radius: 1vw;
+}
+
+
+/* From uiverse.io by @alexruix */
+.input {
+    height: 3.5vw;
+    background-color: #05060f0a;
+    border-radius: .5vw;
+    padding: 0 1vw;
+    border: .1vw solid transparent;
+    font-size: 1vw;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+
+  .firtsLine{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 1vw 0 1vw ;
+  }
+
+  .apellidos{
+    width: 55vw;
+    margin-right: 1vw;
+  }
+
+  .nombre{
+    width: 19vw;
+  }
+
+  .secondLine{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 1vw 0 1vw ; 
+  }
+
+  .thirdline{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 1vw 0 1vw ;     
+  }
+
+  .second{
+    width: 21vw;
+  }
+
+  .calle{
+    width: 35vw;
+  }
+
+  .botom{
+    margin-bottom: 1vw;
+  }
+
+
+  .containersubmit{
+    align-items: center;
+    font-size: 2vw;
+    margin: 1.5vw 1.5vw 3vw 1.5vw;
+    display: flex;
+    width: 30vw;
+    height: 3vw;
+    background-color: azure;
+    border-radius: .5vw;
+    cursor: pointer;
+  }
+
+  .guardar{
+    background-color: #a1edcd;
+}
+
+.containersubmit:hover{
+    transition: all 2s;
+    align-items: center;
+    font-size: 2vw;
+    margin: 1.5vw 1.5vw 3vw 1.5vw;
+    display: flex;
+    width: 30vw;
+    height: 3vw;
+    color: #fff;
+    background-color: #242424;
+    border-radius: .5vw;
+    cursor: pointer;
+  }
+
+  .submitText{
+    margin-left: 1vw;
+  }
+
+
+
+
+
